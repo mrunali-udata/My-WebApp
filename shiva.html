@@ -1,0 +1,125 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <title>Employee Leave Form</title>  
+  <meta charset="utf-8"> 
+  
+  <body style="background-image:url('bg7_1400x600.jpg');">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+  </head>  
+<body>  
+   
+      
+</div>  
+</nav>  
+   <div class="container">
+
+  <div style="text-align:center">
+    <h2 style="color:cornsilk">Employee Leave Form</h2>
+    
+  
+    </div>
+    <div class="column">
+     
+        <label for="fname" style="color:cornsilk">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname"style="color:cornsilk">Out Time</label>
+        <input type="text" id="outname" name="Out Timing" placeholder="Your last name..">
+        <label for="country"style="color:cornsilk">Approval</label>
+        <select id="country" name="country">
+          <option value="off1">Officer1</option>
+          <option value="off2">Officer2</option>
+          <option value="off3">Officer3</option>
+          <option value="off4">Officer4</option>
+        </select>
+       
+        <label for="reason"style="color:cornsilk">Reason</label>
+        <textarea id="reason" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <center><button Onclick="thank()" style="color: black;padding: 15px 32px;text-align: center;">Submit</button><center>
+        
+        
+    </div>
+  </div>
+</div>
+<script>
+ function thank()
+ {
+     alert("Thank You For Your Respose");
+ }
+ </script>
+</body>
+</html>
+<style>
+.nav-link{
+  color:white;
+  font-size:15px;
+  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+   box-shadow: 2px 2px 20px white;
+
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #00000012;
+   box-shadow: 2px 2px 20px white;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+

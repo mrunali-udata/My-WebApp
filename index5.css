@@ -1,0 +1,68 @@
+body{
+    background-image:url('bg7_1400x600.jpg');
+    color:white;
+    font-family:"arial",sans-sarif;
+}
+ h1{
+     text-align:center;
+     color:#fff;
+ }
+
+ .clearfix{
+     clear:both;
+ }
+
+ .container{
+     width: 365px;
+     overflow:auto;
+     margin:40px auto;
+     background:#3256bd6b;
+     padding-bottom:40px;
+     border-radius:10px;
+     box-shadow: 2px 2px 20px white;
+ }
+  
+  #bo li{
+      float:left;
+      margin:10px;
+      height:70px;
+      width:70px;
+      font-size:55px;
+      background-color:#0331f4;
+      box-shadow: 2px 2px 20px white;
+      color:consilk;
+      list-style:none;
+      text-align:center;
+      border-radius:5px;
+  }
+
+  #bo li:hover,#reset:hover{
+      cursor:pointer;
+      background-color:#0331f4;
+      color:black;
+      box-shadow: 2px 2px 20px white;
+  }
+
+  #reset{
+      border:0;
+      background-color:#0331f4;
+      color:white;
+      width:70%;
+      padding:15px;
+      border-radius:5px;
+     box-shadow: 2px 2px 20px white;
+     }
+
+    .o{
+        color:yellow !important;
+      }
+
+    .x{
+        color:red !important;
+    }
+
+    footer{
+        display:block;
+        text-align:center;
+        padding-top:20px;
+    }
